@@ -1,0 +1,38 @@
+# Book settings
+title: OpenPifPaf Guide
+author: <a href="https://www.svenkreiss.com">Sven Kreiss</a> and <a href="https://github.com/vita-epfl/openpifpaf/graphs/contributors">contributors</a>.
+copyright: "2020-2021"
+email: research@svenkreiss.com
+logo: logo.png
+
+# latex:
+#   latex_documents:
+#     targetname: book.tex
+
+html:
+  favicon: favicon.png
+  extra_navbar: ""
+  use_repository_button: True
+  extra_footer: |
+    <div>Powered by <a href="https://jupyterbook.org/">Jupyter Book</a>.</div>
+
+# Information about where the book exists on the web
+repository:
+  url                       : https://github.com/vita-epfl/openpifpaf  # Online location of your book
+  path_to_book              : guide  # Optional path to your book, relative to the repository root
+  branch                    : stable  # Which branch of the repository should be used when creating links (optional)
+
+launch_buttons:
+  binderhub_url             : "https://mybinder.org"  # The URL for your BinderHub (e.g., https://mybinder.org)
+
+sphinx:
+  extra_extensions: [sphinx.ext.autodoc]
+  config:
+    autodoc_member_order: bysource
+    language: en
+
+execute:
+  timeout: 600
+
+bibtex_bibfiles:
+  - references.bib
