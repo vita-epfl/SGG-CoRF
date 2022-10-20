@@ -12,7 +12,7 @@ This codebase is the official implementation of "Composite Relationship Fields w
 > objects and their relationships in a single stage.
 
 > In this work, we present a novel bottom-up SGG approach by representing relationships
-> using \textit{Composite Relationship Fields} (CoRF). CoRF turns relationship
+> using *Composite Relationship Fields* (CoRF). CoRF turns relationship
 > detection into a dense regression and classification task, where each cell of
 > the output feature map identifies surrounding objects and their relationships.
 > Furthermore, we propose a refinement head that leverages Transformers for global
