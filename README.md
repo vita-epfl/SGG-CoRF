@@ -1,6 +1,6 @@
 # Composite Relationship Fields with Transformers for Scene Graph Generation
 
-This codebase is the official implementation of "Composite Relationship Fields with Transformers for Scene Graph Generation".
+This codebase is the official implementation of "Composite Relationship Fields with Transformers for Scene Graph Generation" (Accepted at WACV2023).
 
 ![pull figure](assets/pull_figure.jpg)
 
