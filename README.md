@@ -31,13 +31,13 @@ This codebase is based on the publicly-available repository [openpifpaf/openpifp
 
 We recommend before installing the requirements to create a virtual environment where all packages will be installed ([link](https://realpython.com/python-virtual-environments-a-primer/)).
 
-First, make sure that inside the main folder (`cofr`) you have the *openpifpaf* and *apex* folder. Activate the virtual environment (optional)
+First, make sure that inside the main folder (`SGG-CoRF`) you have the *openpifpaf* and *apex* folder. Activate the virtual environment (optional)
 
 Then, install the requirements:
 
 ```setup
 
-cd corf
+cd SGG-CoRF
 
 pip install numpy Cython
 
@@ -76,7 +76,7 @@ vim maskrcnn_benchmark/utils/imports.py
 
 ```
 
-To perform the following steps, make sure to be in the main **openpifpaf** directory (`cofr/openpifpaf`).
+To perform the following steps, make sure to be in the main **openpifpaf** directory (`SGG-CoRF/openpifpaf`).
 
 In order to train the model, the dataset needs to be downloaded and pre-processed:
 
